@@ -1,0 +1,24 @@
+{
+  "name": "gerd-monitoring-system",
+  "version": "6.0.0",
+  "description": "GERD Complete Advanced Monitoring System with Real-time Weather Integration",
+  "main": "api/index.py",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Python build handled by Vercel'",
+    "start": "python api/index.py"
+  },
+  "keywords": [
+    "gerd",
+    "water-monitoring", 
+    "satellite-data",
+    "early-warning",
+    "flask",
+    "vercel"
+  ],
+  "author": "GERD Monitoring Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
